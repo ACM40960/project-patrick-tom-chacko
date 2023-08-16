@@ -2,8 +2,8 @@
 <h2>Contents</h2>
 1) Introduction <br>
 2) Dataset & Metrics <br>
-3) Installation 
-4) Automated Pre-procesing of data <br>
+3) Installation <br>
+4) Automated Pre-processing of data <br>
 5) Principal Component Analysis Feature Selection <br>
 6) Neural Network Architecture <br>
 7) Neural Network Performance <br>
@@ -26,5 +26,15 @@ AB-GL = Fifty-six anonymized health characteristics all numeric.<br>
 EJ = categorical variable <br>
 Class = Binary target, 1 indicates the subject has been diagnosed with one of the three conditions, 0 indicates they have not.<br>
 <h3>Metric</h3>
-Since we have highly unbalanced classes for a fair assessment it would be better to use the F1 score as the accuracy metric to train the Neural Network.
+Since we have highly unbalanced classes for a fair assessment it would be better to use the F1 score as the accuracy metric to train the Neural Network. F1 is a harmonic mean between Precision and Recall.<br><br>
+
+
+F1 score = 2 x (Recall x Precision)/(Recall + Precision)<br><br>
+Precision = TP/(TP+FP) <br>
+Recall = TP/(TP+FN)
+
+
+
+
+
 
