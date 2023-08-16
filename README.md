@@ -2,12 +2,13 @@
 <h2>Contents</h2>
 1) Introduction <br>
 2) Dataset & Metrics <br>
-3) Automated Pre-procesing of data <br>
-4) Principal Component Analysis Feature Selection <br>
-5) Neural Network Architecture <br>
-6) Neural Network Performance <br>
-7) Limitations <br>
-8) Future Scope <br>
+3) Installation 
+4) Automated Pre-procesing of data <br>
+5) Principal Component Analysis Feature Selection <br>
+6) Neural Network Architecture <br>
+7) Neural Network Performance <br>
+8) Limitations <br>
+9) Future Scope <br>
 
 <h2> Introduction </h2>
 <br>
