@@ -33,6 +33,16 @@ F1 score = 2 x (Recall x Precision)/(Recall + Precision)<br><br>
 Precision = TP/(TP+FP) <br>
 Recall = TP/(TP+FN)
 
+<h2>Installation</h2>
+- Install R-Studio <br>
+- Download the R file to your local machine <br>
+- run the following line of codes in the console 
+"install.packages('keras')"; <br>
+<br>
+Sometimes RStudio has errors with Neural Networks and TensorFlow, if any addition to the code is done and the code throws an error then using the RStudio in Anaconda would fix the issue as the IDE is integrated with all the required dependencies.
+
+
+
 
 
 
