@@ -59,7 +59,11 @@ There is a function in the first line of code that does the following functions 
 
 <br>
 The code is included in the DNN_Classifier.R file, PCA results tell us that 40 components are needed to explain atleast 95% of variation in Data, the reason for high number of PCA could be any of the following :- <br>
-
-
-
-
+1) Intrinsic Data Complexity <br>
+2) Noise in the Data<br>
+3) Non-linear relationship<br>
+4) Correlated Features<br>
+<br>
+Result – PCA could not be used as the loadings of all the variable were significantly small and the choice of high loading variables was rejected.<br>
+Thus Feature  Selection for the Neural Network is not taken further from here, all the features are selected. <br>
+PRCOMP was used to compute the Principal Components of the data.
