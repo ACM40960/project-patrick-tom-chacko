@@ -128,4 +128,14 @@ Pre-Processing -Getty Images/iStockphoto
 Review of Literature
 1) Sadek, Ramzi M., et al. “Parkinson’s Disease Prediction Using Artificial Neural Network.” Parkinson’s Disease Prediction Using Artificial Neural Network, 1 Jan. 2019<br>
 2) Cheng-Hsiung Weng and Tony Cheng-Kui Huang and Ruo-Ping Han, “Disease Prediction With Different Types of Neural Network Classifiers.” Disease Prediction With Different Types of Neural Network Classifiers - ScienceDirect, 21 Aug. 2015, https://doi.org/10.1016/j.tele.2015.08.006.<br>
-3) S. P. Rajamhoana, C. A. Devi, K. Umamaheswari, Kiruba, K. Karunya and R. Deepika, "Analysis of Neural Networks Based Heart Disease Prediction
+3) S. P. Rajamhoana, C. A. Devi, K. Umamaheswari, Kiruba, K. Karunya and R. Deepika, "Analysis of Neural Networks Based Heart Disease Prediction Systems, 2018 11th International Conference on Human System Interaction (HSI), Gdansk, Poland, 2018, pp. 233-239, doi: 10.11.09/HSI.2018.8431153.<br>
+
+
+Software used <br>
+-RStudio<br>
+2023.03.0 Build 386<br>
+© 2009-2023 Posit Software, PBC<br>
+"Cherry Blossom" Release (3c53477a, 2023-03-09) for macOS<br><br>
+-R libraries<br>
+Keras<br>
+PRCOMP
