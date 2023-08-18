@@ -51,6 +51,8 @@ There is a function in the first line of code that does the following functions 
 <h2> Principal Components Analysis for Feature Selection</h2>
 The code is included in the DNN_Classifier.R file, PCA results tell us that 40 components are needed to explain atleast 95% of variation in Data, the reason for high number of PCA could be any of the following :- <br>
 
+![Plot of PCs and Var Explained](PC and Var.png)
+
 
 
 
