@@ -10,7 +10,7 @@
 8) Limitations <br>
 9) Future Scope <br>
 
-<h2> Introduction </h2>
+<h2> 1. Introduction </h2>
 <br>
 There are 56 columns given  which are measurements of various health characteristics, main aim of the study is to use a model to predict the medical condition based on these 56 characteristics<br>
 
@@ -20,7 +20,7 @@ Identifying fewer important characteristics could help In diagnosing and treatme
 
 
 
-<h2> Dataset & Metrics</h2>
+<h2> 2. Dataset & Metrics</h2>
 <h3>Dataset</h3>
 AB-GL = Fifty-six anonymized health characteristics all numeric.<br>
 EJ = categorical variable <br>
@@ -33,7 +33,7 @@ F1 score = 2 x (Recall x Precision)/(Recall + Precision)<br><br>
 Precision = TP/(TP+FP) <br>
 Recall = TP/(TP+FN)
 
-<h2>Installation</h2>
+<h2> 3. Installation</h2>
 - Install R-Studio <br>
 - Download the R file to your local machine <br>
 - run the following line of codes in the console 
@@ -41,7 +41,7 @@ Recall = TP/(TP+FN)
 <br>
 Sometimes RStudio has errors with Neural Networks and TensorFlow, if any addition to the code is done and the code throws an error then using the RStudio in Anaconda would fix the issue as the IDE is integrated with all the required dependencies.
 
-<h2> Automated Pre-Processing </h2>
+<h2> 4. Automated Pre-Processing </h2>
 
 ![Picture of Pre-Processing a random document](https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/1c2881bc-1a70-4d49-a715-515b702d21cd) 
 
@@ -51,7 +51,7 @@ There is a function in the first line of code that does the following functions 
 3) Standardizes the dataset by mean and standard deviation<br>
 4) Categorical variable ‘EJ’ hot key encoding.<br>
 
-<h2> Principal Components Analysis for Feature Selection</h2>
+<h2> 5. Principal Components Analysis for Feature Selection</h2>
 
 
 ![PC and Var](https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/d7859098-7968-4b2a-a9ab-2bfb88f2f544)
@@ -67,3 +67,15 @@ The code is included in the DNN_Classifier.R file, PCA results tell us that 40 c
 Result – PCA could not be used as the loadings of all the variable were significantly small and the choice of high loading variables was rejected.<br>
 Thus Feature  Selection for the Neural Network is not taken further from here, all the features are selected. <br>
 PRCOMP was used to compute the Principal Components of the data.
+
+<h2> 6. Neural Network Architecture</h2>
+
+<img width="602" alt="NEURAL NET ARCHITECTURE" src="https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/ad67c32b-5231-4ce4-afcb-7e9cd09d5954">
+<br>
+Model was trained on 556 Observations and Validated in sample with a Validation Split of 0.4 and 61 Observations were kept as test set for out sample Evaluation. 150 epochs were considered for training the DNN.<br>
+
+<img width="242" alt="Class barchart" src="https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/40acb963-a274-4805-8885-fb4ccff21566">
+
+Since the number of Positive Cases were very less in comparison with the Negative Cases, F1 metric was used to train the Model.To increase the Model Performance class weights had to be biased, hence the probability of choosing a class 1 observation from the dataset was made higher than the existing probability.
+
+
