@@ -79,8 +79,11 @@ Model was trained on 556 Observations and Validated in sample with a Validation 
 Since the number of Positive Cases were very less in comparison with the Negative Cases, F1 metric was used to train the Model.To increase the Model Performance class weights had to be biased, hence the probability of choosing a class 1 observation from the dataset was made higher than the existing probability.
 
 <h2> 7. Neural Network Performance</h2>
+<h3>Binary cross entropy Loss</h3>
 <img width="381" alt="Loss of classification accuracy" src="https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/a7080459-71ad-4e51-8f83-c905a907905d", title = 'Binary cross entropy Loss'>
-<img width="382" alt="classification accuracy" src="https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/9212ee44-0d2d-403f-b9b0-ddc1a610be7c", title = 'Classification accuracy'>
+<h3>Classification accuracy</h3>
+<img width="382" alt="classification accuracy" src="https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/9212ee44-0d2d-403f-b9b0-ddc1a610be7c ", title = 'Classification accuracy'>
+<h3>F1 score</h3>
 <img width="381" alt="F1 score" src="https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/cfa1e03b-2874-40f1-b474-5e7723d84097", title = 'F1 score'>
 
 
