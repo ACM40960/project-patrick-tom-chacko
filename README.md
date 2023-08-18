@@ -9,6 +9,9 @@
 7) Neural Network Performance <br>
 8) Limitations <br>
 9) Future Scope <br>
+10) Conclusion
+11) Resources and References
+
 
 <h2> 1. Introduction </h2>
 <br>
@@ -86,5 +89,43 @@ Since the number of Positive Cases were very less in comparison with the Negativ
 <h3>F1 score</h3>
 <img width="381" alt="F1 score" src="https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/cfa1e03b-2874-40f1-b474-5e7723d84097", title = 'F1 score'>
 
+<br><b>Discussion</b><br>
+The graphs show that the training and validation curve seems to have reached convergence and we can see the importance of using F1 Metric. The in-sample validation for Classification Accuracy is nearly 99% whereas the F1 score gives a more realistic accuracy of 73% approx. Using batch Normalization in each layer has decreased the in-sample validation f1 accuracy from a max of 72.5% but has reduced the overfitting. Batch Normalization is not considered hereafter consideration with Out of Sample Evaluation.<br>
+
+<h3>OUT OF SAMPLE EVALUATION</h3>
+<img width="429" alt="image" src="https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/2ece54fc-c15c-47d2-b1dd-7519ace1105c">
+
+From the Out of Sample Evaluation, we can see that the Model is consistent with unseen Observations and yields a f1-Accuracy of 70.6% approx. The validation in-sample and out-sample sets agree with each other hence nullifying the effect of overfitting
 
 
+<h2> 8. Limitations</h2>
+1)  Highly Unbalanced cases <br>
+2) Tuning of Neural Networks<br>
+3) Ensemble NN Classifiers<br>
+4) Using Non-Linear Dimension Reduction Techniques<br>
+5) Large Number of Parameters<br>
+6) Computational Cost for NN training and evaluation<br>
+7) Lack of Interpretability<br>
+
+<h2> 9. Future Scope </h2>
+1) Tuning of Neural Network in a grid of parameters and Ensemble NN Classifiers. <br>
+
+2) Fully Automate the Pre-Processing step instead of selecting the Missing variable by observation and being mean imputed.<br>
+
+3) Bootstrapping would be an efficient but computationally costly technique that could increase the Model Performance.<br>
+
+<h2> 10. Conclusion </h2>
+
+1) Principal Components cannot be used here for feature selection. Implying the information is Unique among different variables and there is a need for approximately 41 Principal Components to explain at least 95% of Variation in the data, which is not significantly very different from 56 variables.<br>
+
+2) The Neural Network deployed is able to achieve an F1-score of 73% approx. in the in-sample validation and a 70% approx score on the out-sample validation. The model is consistent with the output.<br>
+3) Systematic Tuning using the grid search can improve the Model Performance if required at the cost of computational resources.<br>
+
+<h2> 11. Resources and References</h2>
+Images <br>
+Pre-Processing -Getty Images/iStockphoto
+
+Review of Literature
+1) Sadek, Ramzi M., et al. “Parkinson’s Disease Prediction Using Artificial Neural Network.” Parkinson’s Disease Prediction Using Artificial Neural Network, 1 Jan. 2019<br>
+2) Cheng-Hsiung Weng and Tony Cheng-Kui Huang and Ruo-Ping Han, “Disease Prediction With Different Types of Neural Network Classifiers.” Disease Prediction With Different Types of Neural Network Classifiers - ScienceDirect, 21 Aug. 2015, https://doi.org/10.1016/j.tele.2015.08.006.<br>
+3) S. P. Rajamhoana, C. A. Devi, K. Umamaheswari, Kiruba, K. Karunya and R. Deepika, "Analysis of Neural Networks Based Heart Disease Prediction
