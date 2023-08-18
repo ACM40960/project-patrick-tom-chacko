@@ -42,7 +42,10 @@ Recall = TP/(TP+FN)
 Sometimes RStudio has errors with Neural Networks and TensorFlow, if any addition to the code is done and the code throws an error then using the RStudio in Anaconda would fix the issue as the IDE is integrated with all the required dependencies.
 
 <h2> Automated Pre-Processing </h2>
-There is a function in the first line of code that does the following functions on the procided dataset :- <br>
+
+![Picture of Pre-Processing a random document](https://github.com/ACM40960/project-patrick-tom-chacko/assets/134104897/1c2881bc-1a70-4d49-a715-515b702d21cd) 
+
+There is a function in the first line of code that does the following functions on the provided dataset :- <br>
 1) Renames the row names with the column ‘Id’<br>
 2) Missing Value Imputation of the numeric features by the class means (Positive/Negative)<br>
 3) Standardizes the dataset by mean and standard deviation<br>
